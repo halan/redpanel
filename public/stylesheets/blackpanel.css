@@ -1,0 +1,59 @@
+#blackpanel
+{
+ height: 80px;
+ background: black url('images/blackpanel.png') repeat-x;
+ border-bottom: 7px solid #c00;
+ color: white;
+ font: bold 11px ubuntu, sans;
+ text-shadow: -1px -1px 1px black;
+}
+
+#logo
+{
+margin: 15px;
+}
+
+#blackpanel .part
+{
+  background: url(images/panelshadow.png) no-repeat;
+  float: left;
+  height: 100%;
+}
+
+#blackpanel .part.last
+{
+  float: right;
+  padding: 0 2.5em;
+}
+
+#blackpanel #identity img
+{
+  margin: 0 10px;
+  float: left;
+  -moz-box-shadow: -1px -1px 1px black;
+  -webkit-box-shadow: -1px -1px 1px black;
+  -khtml-box-shadow: -1px -1px 1px black;
+}
+
+#blackpanel #identity .username
+{
+  display: block;
+  float: right;
+  padding-top: 1em;
+}
+
+
+#admin-of, #the-server
+{
+  margin: 0 40px;
+}
+
+#admin-of
+{
+  margin-top: 2em;
+}
+
+#the-server
+{
+ font-size: 20px;
+}

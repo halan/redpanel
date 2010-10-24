@@ -1,0 +1,44 @@
+#main-menu
+{
+  background: #c00 url(images/redmenu.png) repeat-x;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font: bold 15px ubuntu, sans;
+}
+
+#main-menu li
+{
+  display: block;
+  float: left;
+}
+
+#main-menu:after
+{
+ content: ".";
+ height: 0;
+ display: block;
+ clear: both;
+ visibility: hidden;
+}
+
+#main-menu a
+{
+  color: white;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px black;
+  padding: 4px 10px;
+  text-align: center;
+  display: block;
+  background: url(images/bordermenu.png) no-repeat;
+}
+
+#main-menu .logout
+{
+  float: right;
+}
+
+#main-menu .logout a
+{
+  background: none;
+}

@@ -1,0 +1,81 @@
+.button
+{
+ display: block;
+ background: url(images/buttonleft.png) no-repeat;
+ padding-left: 8px;
+ height: 27px; 
+ width: 100px;
+ text-decoration: none;
+}
+
+span.button
+{
+  background-image: url(images/dbuttonleft.png);
+  cursor: default;
+}
+
+.button.tiny{width: 50px;}
+.button.small{width: 80px;}
+.button.big{width: 150px;}
+.button.giant{width: 200px;}
+
+.button span
+{
+ background: url(images/buttonright.png) no-repeat right;
+ height: 19px;
+ padding-top: 8px;
+ padding-right: 8px;
+ display: block;
+ text-align: center;
+ color: white;
+ font-weight: bold;
+ font-family: ubuntu, sans;
+ text-shadow: -1px -1px 1px black;
+ font-size: 10px;
+}
+
+span.button span
+{
+ background-image: url(images/dbuttonright.png);
+}
+
+.button:hover span
+{
+ text-shadow: 0 0 5px black;
+}
+
+.button:active span
+{
+ text-shadow: 1px 1px 1px black;
+}
+
+.actions
+{
+ display: inline-block;
+ float: right;
+}
+
+div.actions
+{
+  margin: 1em;
+  margin-top: 0;
+}
+
+.actions .button
+{
+float: left;
+margin-left: .3em;
+}
+
+.actions:after
+{
+ content: '.';
+ height: 0;
+ display: block;
+ clear: both;
+ visibility: hidden;
+}
+
+* html .acctions {height: 1%;}
+.actions {display: block;}
+

@@ -1,0 +1,52 @@
+ul.collection
+{
+ padding: 0;
+ font-size: 12px;
+ color: gray;
+ margin: 1em;
+}
+
+ul.collection li
+{
+ margin-bottom: 1em;
+ background: #cdcdcc;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ padding: 0 10px;
+ display: block;
+ clear: both;
+}
+
+.collection li:hover
+{
+ -moz-box-shadow: 0 0 20px white;
+ text-shadow: 1px 1px 1px white;
+}
+
+.collection h2, .collection p
+{
+ float: left;
+ text-align: center;
+ height: 100%;
+ margin-top: 15px;
+}
+
+.collection h2
+{
+ width: 200px;
+ text-align: left;
+}
+.collection .actions
+{
+ float: right;
+}
+
+.collection li:after
+{
+ content: '.';
+ height: 0;
+ display: block;
+ clear: both;
+ visibility: hidden;
+}

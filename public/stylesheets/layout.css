@@ -1,0 +1,27 @@
+body
+{
+ background: #eeeeec;
+ font: 10px ubuntu, sans;
+ height: 100%;
+ border-bottom: 10px solid #c00;
+ margin: 0;
+ padding: 0;
+}
+
+#container
+{
+ padding: 1em 3em;
+}
+
+h1, h2, h3, h4, h5
+{
+ color: #c00;
+ text-shadow: 1px 1px 2px white;
+}
+
+h1
+{
+ font-size: 35px;
+ margin-left: 1em;
+ margin-bottom: 0;
+}

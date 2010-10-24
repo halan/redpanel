@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teste CSS layout</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<style>
+@import url('/stylesheets/redpanel.css');
+</style>
+</head>
+<body>
+
+<ul id="main-menu">
+  <li><a href="">Menu</a></li>
+  <li><a href="">Menu</a></li>
+  <li class="logout" ><a href="">Logout</a></li>
+</ul>
+
+<div id="blackpanel">
+  <div class="part">
+    <img id="logo" src="/images/logo.png" />
+  </div>
+  <div class="part">
+    <p id="admin-of" >Administration of:</p>
+    <p id="the-server" >www.server.com.br</p>
+  </div>
+  <div class="last part">
+    <p>Identified as:</p>
+    <p id="identity"><img src="https://secure.gravatar.com/avatar/55da7277a082fce0b21565d4f691bb1c?s=140&d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png" width="32" height="32" alt="" /><span class="username">Halan</span></p>
+  </div>
+</div>
+
+<div id="container">
+
+<h1>Section Title</h1>
+
+<div class="actions"><a href="" class="button big"><span>A main action</span></a></div>
+<ul class="collection">
+  <li>
+    <h2>My item</h2>
+    <p>Content</p>
+    <p class="actions">
+      <a href="" class="button tiny"><span>action</span></a>
+      <a href="" class="button tiny"><span>action</span></a>
+      <span class="button tiny"><span>action</span></span>
+    </p>
+  </li>
+  <li>
+    <h2>My item</h2>
+    <p>Content<br />two lines.</p>
+
+    <p class="actions">
+      <a href="" class="button tiny"><span>action</span></a>
+    </p>
+  </li>
+  <li>
+    <h2>My item</h2>
+    <p class="actions">
+      <a href="" class="button tiny"><span>action</span></a>
+    </p>
+  </li>
+</ul>
+</div>
+</body>
+</html>
