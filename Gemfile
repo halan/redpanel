@@ -11,6 +11,7 @@ gem 'devise'
 gem 'apache-config-generator'
 gem 'grit'
 gem 'inherited_resources'
+gem 'haml'
 # Use unicorn as the web server
 # gem 'unicorn'
 
