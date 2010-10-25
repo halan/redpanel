@@ -8,8 +8,9 @@ gem 'rails', '3.0.1'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'devise'
-#gem 'apache-config-generator'
-#gem 'grit'
+gem 'apache-config-generator'
+gem 'grit'
+gem 'inherited_resources'
 # Use unicorn as the web server
 # gem 'unicorn'
 
