@@ -1,0 +1,25 @@
+!!!
+%html
+  %head
+    %title Redpanel
+    %link{:rel=>"shortcut icon", :href=>"/favicon.png"}
+    =stylesheet_link_tag :all
+    =javascript_include_tag :defaults
+    =csrf_meta_tag
+  %body
+    =render :partial => '/shared/main_menu'
+
+    #blackpanel
+      .part
+        =image_tag 'logo.png', :id => 'logo'
+      .part
+        %p#admin-of Administration of:
+        %p#the-server=request.server_name
+      .last.part
+        %p Identified as:
+        %p#identity
+          =image_tag "https://secure.gravatar.com/avatar/55da7277a082fce0b21565d4f691bb1c?s=140&d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png", :width=>"32", :height=>"32", :alt=>""
+          %span.username Halan
+
+    #container
+      = yield
