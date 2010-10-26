@@ -8,6 +8,7 @@ gem 'rails', '3.0.1'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'devise'
+gem 'simple_form'
 gem 'apache-config-generator'
 gem 'grit'
 gem 'inherited_resources'
