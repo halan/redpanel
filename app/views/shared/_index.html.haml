@@ -1,0 +1,8 @@
+.actions
+  %a.button{:href=>new_resource_path}
+    %span Add a new #{resource_class.human_name.downcase.pluralize} 
+-if collection.any?
+  %ul.collection
+    =render :partial => collection
+-if collection.empty?
+  %p Don't have #{resource_class.human_name.downcase.pluralize} yet.
