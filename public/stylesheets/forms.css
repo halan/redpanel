@@ -1,0 +1,24 @@
+.simple_form
+{
+ margin: 1em auto;
+ width: 700px;
+ background: #cdcdcc;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ padding: 1em;
+ clear: both;
+}
+
+.simple_form .input
+{
+  padding-top: .3em;
+}
+
+.simple_form .input label
+{
+  width: 200px;
+  display: block;
+  float: left;
+}
+
