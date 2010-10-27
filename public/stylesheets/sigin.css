@@ -46,4 +46,10 @@
   text-align: center;
 }
 
-
+.signin .alert
+{
+  background: #ecc;
+  padding: 1em;
+  border: 1px solid;
+  color: #c00;
+}

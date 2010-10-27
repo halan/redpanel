@@ -29,3 +29,12 @@
   float: left;
 }
 
+.simple_form .field_with_errors input
+{
+  border: 1px solid red;
+}
+
+.simple_form .error
+{
+  color: #c00;
+}
