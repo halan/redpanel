@@ -1,0 +1,9 @@
+-simple_form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+  .big_logo
+    =image_tag 'complete_logo.png'
+  %h2 Sign in to manage #{request.server_name}
+  = resource.errors.full_messages
+  = f.input :email
+  = f.input :password
+  = f.input :remember_me, :as => :boolean if devise_mapping.rememberable?
+  = f.button :submit, 'Sign In'

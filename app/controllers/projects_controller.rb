@@ -1,2 +1,2 @@
-class ProjectsController < InheritedResources::Base
+class ProjectsController < ApplicationController
 end

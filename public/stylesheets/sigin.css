@@ -1,0 +1,49 @@
+.signin 
+{
+  border: none;
+  text-align: center;
+}
+
+.signin .input
+{
+  text-align: left;
+}
+
+.signin label abbr
+{
+  display: none;
+}
+
+.signin .simple_form
+{
+  width: 350px;
+  padding: 1em 4em;
+}
+
+.signin .simple_form .boolean label
+{
+  display: inline;
+  width: inherit;
+}
+
+.signin .simple_form .email input,
+.signin .simple_form .password input
+{
+  display: block;
+  width: 100%;
+}
+
+.signin .simple_form input[type=submit]
+{
+  background-position: 0 -6px;
+  font-size: 15px;
+  width: 100px;
+}
+
+.signin .big_logo
+{
+  margin: 1em;
+  text-align: center;
+}
+
+

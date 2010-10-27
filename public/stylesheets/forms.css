@@ -15,6 +15,13 @@
   padding-top: .3em;
 }
 
+.simple_form .string input,
+.simple_form .password input
+{
+  font-size: 25px;
+  width: 300px;
+}
+
 .simple_form .input label
 {
   width: 200px;

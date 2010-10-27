@@ -15,11 +15,12 @@
       .part
         %p#admin-of Administration of:
         %p#the-server=request.server_name
-      .last.part
-        %p Identified as:
-        %p#identity
-          =image_tag "https://secure.gravatar.com/avatar/55da7277a082fce0b21565d4f691bb1c?s=140&d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png", :width=>"32", :height=>"32", :alt=>""
-          %span.username Halan
+      -if user_signed_in?
+        .last.part
+          %p Identified as:
+          %p#identity
+            <!-- =image_tag "", :width=>"32", :height=>"32", :alt=>""-->
+            %span.username=current_user.email
 
     #container
       = yield
