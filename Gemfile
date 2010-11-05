@@ -13,6 +13,7 @@ gem 'apache-config-generator'
 gem 'grit'
 gem 'inherited_resources'
 gem 'haml'
+gem 'babosa'
 # Use unicorn as the web server
 # gem 'unicorn'
 
