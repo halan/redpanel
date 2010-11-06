@@ -1,0 +1,11 @@
+%h1 Installed Gems
+%h2 Have #{@gems.count} gems installeds in #{request.server_name}
+
+.actions
+  %a.button{:href => ''}
+    %span Install more gems
+%ul.collection
+  -@gems.each do |g|
+    %li
+      %h2=g[:name]
+      %p (#{g[:version]})

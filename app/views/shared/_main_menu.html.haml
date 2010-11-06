@@ -5,6 +5,8 @@
     %a{:href => projects_path}=Project.human_name.pluralize
   %li
     %a{:href => users_path}=User.human_name.pluralize
+  %li
+    %a{:href => gems_path} Gems
   -if user_signed_in?
     %li.logout
       %a{:href => destroy_user_session_path} Logout
